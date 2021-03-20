@@ -1,0 +1,11 @@
+XGBoost is one of the most powerful ML algorithm from tree ensemble learning. XGBoost stands for “Extreme Gradient Boosting”. XGBoost is an optimized distributed gradient boosting library designed to be highly efficient, flexible and portable. It implements Machine Learning algorithms under the Gradient Boosting framework. XGBoost is optimized GradientBoosting algorithm through parallel processing, tree-pruning, handling missing values and regularization to avoid overfitting/bias used to solve many data science problems in a fast and accurate way.  It's based on a convex function and tweaks its parameters iteratively to minimize a given function to its local minimum. 
+Here, we go through cycles that repeatedly builds new models and combines them into an ensemble model. We start the cycle by taking an existing model and calculating the errors for each observation in the dataset. Then we build a new model to predict these errors. We add predictions from this error-predicting model to the "ensemble of models.". We add the predictions from all previous models to make a prediction. We use these predictions to calculate new errors, build the next model, and add it to the ensemble.
+Main features of XGBoost are:
+1.	XGBoost is used in supervised learning(regression and classification problems).
+2.	Supports parallel processing.
+3.	Cache optimization.
+4.	Has a variety of regularizations which helps in reducing overfitting.
+5.	Auto tree pruning – Decision tree will not grow further after certain limits internally.
+6.	Can handle missing values.
+7.	Has inbuilt Cross-Validation.
+8.	Takes care of outliers to some extent.
